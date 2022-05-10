@@ -1,0 +1,167 @@
+.primary-color {
+  color: $primary_color;
+}
+
+.bg-primary-color {
+  background: $primary_color;
+}
+
+.bd-primary-color {
+  border-color: $primary_color;
+}
+.color-err {
+  color: $color_red;
+}
+.secondary-color {
+  color: $secondary_color;
+}
+
+.bg-secondary-color {
+  background: $secondary_color;
+}
+
+.bd-secondary-color {
+  border-color: $secondary_color;
+}
+
+.third-color {
+  color: $third_color;
+}
+
+.bg-third-color {
+  background: $third_color;
+}
+
+.bd-third-color {
+  border-color: $third_color;
+}
+
+.color-red {
+  color: $color_red;
+}
+
+.bg-color-red {
+  background: $color_red;
+}
+
+.bd-color-red {
+  border-color: $color_red;
+}
+.color-background {
+  color: $color_background;
+}
+.color-light {
+  color: $color_light;
+}
+.bg-color-light {
+  background: $color_light;
+}
+.bg-color-cyan {
+  background: $color_cyan;
+}
+.hv-bg-color-light-gray:hover {
+  background: $color_light_blue;
+}
+.hv-primary-color:hover {
+  color: $primary_color;
+}
+.bg-green {
+  background: $color_green;
+}
+.bg-none {
+  background: none;
+}
+.bg-light-blue {
+  background: $color_light_blue;
+}
+.bg-color-background {
+  background: $color_background;
+}
+.bg-color-gray {
+  background: $color_gray;
+}
+.color-green {
+  color: $color_green;
+}
+.color-light-gray {
+  color: $color_light_gray;
+}
+.bg-color-light-gray {
+  background: $color_light_gray;
+}
+.color-cyan {
+  color: $color_cyan;
+}
+.color-dark {
+  color: $color_dark;
+}
+.bg-color-dark {
+  background: $color_dark;
+}
+
+.primary-color-txt {
+  color: $primary_color_txt;
+}
+
+.secondary-color-txt {
+  color: $secondary_color_txt;
+}
+
+.bg-secondary-color-txt {
+  background: $secondary_color_txt;
+}
+.bg-light {
+  background: $color_light;
+}
+// .bg-color-over-opacity {
+//   background: $color_over_opacity;
+// }
+.color-blue {
+  color: $color_light_blue;
+}
+.bg-color-blue {
+  background: $color_light_blue;
+}
+.hover-bg-color-blue-light {
+  &:hover {
+    background: $color_light_blue;
+  }
+}
+.bg-color-green-2 {
+  background: $color_green_2;
+}
+.bg-primary-color-txt {
+  background: $primary_color_txt;
+}
+.color-gray-opacity {
+  color: $color_gray_opacity;
+}
+.bg-color-gray-opacity {
+  background: $color_gray_opacity;
+}
+.color-green-gray {
+  color: $color_green_gray;
+}
+.bg-color-green-light {
+  background: $color_green_light;
+}
+.bg-color-red-light {
+  background: $color_red_light;
+}
+.bg-color-org-light {
+  background: $color_org_light;
+}
+
+.highlight {
+  background: $color_highlight;
+  padding: 0 2px;
+}
+.bg-color-red {
+  background: $color_bg-color-red;
+}
+.bg-color-yellow {
+  background: $color_bg-color-yellow;
+}
+.bg-color-green {
+  background: $color_bg-color-green;
+}

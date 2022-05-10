@@ -1,0 +1,45 @@
+.loading {
+    list-style: none;
+    height: 100vh;
+    width: 100vw;
+    background: $color_dark;
+    position: relative;
+    overflow: hidden;
+    &__box{
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        top: 32%;
+        &__icon {
+            color: #fff;
+            font-size: 120px;
+        }
+        &__line  {
+           &__span{
+            background: #585757;
+            width: 100px;
+            height: 4px;
+            position: absolute;
+            border-radius: 5px;
+            margin-left: -48px;
+            &::before {
+                content: "";
+                animation: identifier linear 1.5s ;
+                height: 4px;
+                position: absolute;
+                border-radius: 5px;
+                margin-left: -49px;
+                background: #fff;
+            }
+           }
+        }
+    }
+    
+}
+@keyframes identifier {
+    from{
+        width: 0;
+    }to{
+        width: 100px;
+    }
+}

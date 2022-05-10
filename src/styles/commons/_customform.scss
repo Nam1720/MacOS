@@ -1,0 +1,273 @@
+$color_form: #879aa9;
+
+.color-form {
+  color: $color_form;
+}
+
+.form-h30 {
+  height: 30px;
+  line-height: 28px;
+}
+.form-h35 {
+  height: 35px;
+  line-height: 33px;
+}
+
+.radio-custom {
+  @extend .position-rel;
+
+  input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    @extend .full-box;
+    z-index: 2;
+    opacity: 0;
+    cursor: pointer;
+
+    &:checked ~ label:before {
+      // @extend .bg-primary_color;
+      font-family: "icomoon";
+      border: 1px solid $primary_color;
+      content: "\e932";
+    }
+
+    &:checked ~ label {
+      &.success:before {
+        background: $color_form;
+        border-color: $color_form;
+      }
+
+      &.error:before {
+        background: $color_form;
+        border-color: $color_form;
+      }
+    }
+  }
+
+  label {
+    @extend .position-rel;
+    @extend .display-flex;
+    @extend .margin-0;
+
+    &:before {
+      content: "";
+      width: 25px;
+      height: 25px;
+      border: 1px solid $color_form;
+      @extend .bg-color-light;
+      @extend .display-block;
+      margin-right: 8px;
+      @extend .position-rel;
+      top: 5px;
+      display: table;
+
+      & ~ * {
+        width: calc(100% - 18px);
+      }
+    }
+
+    &.w-18 {
+      &:before {
+        width: 18px;
+        height: 18px;
+      }
+    }
+
+    &.margin-0 {
+      margin: 0 auto;
+
+      &:before {
+        @extend .margin-0;
+      }
+    }
+  }
+}
+
+.checkbox-custom {
+  @extend .position-rel;
+
+  input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    @extend .full-box;
+    z-index: 2;
+    opacity: 0;
+    cursor: pointer;
+
+    &:checked ~ label:before {
+      font-family: "icomoon";
+      border: 1px solid $primary_color;
+      @extend .bg-primary-color;
+      @extend .color-light;
+      content: "\e983";
+      @extend .display-flex-center;
+      @extend .justify-content-center;
+      @extend .font-size-18;
+    }
+
+    &:checked ~ label {
+      &.success:before {
+        background: $color_form;
+        border-color: $color_form;
+      }
+
+      &.error:before {
+        background: $color_form;
+        border-color: $color_form;
+      }
+    }
+  }
+
+  label {
+    @extend .position-rel;
+    @extend .display-flex;
+    @extend .margin-0;
+
+    &:before {
+      content: "";
+      width: 1.2rem;
+      height: 1.2rem;
+      border: 1px solid $color_form;
+      @extend .bg-color-light;
+      @extend .display-block;
+      margin-right: 8px;
+      @extend .position-rel;
+      @extend .border-rd-4;
+      top: 5px;
+      // display: table;
+
+      & ~ * {
+        width: calc(100% - 18px);
+      }
+    }
+
+    &.w-18 {
+      &:before {
+        width: 18px;
+        height: 18px;
+      }
+    }
+
+    &.margin-0 {
+      margin: 0 auto;
+
+      &:before {
+        @extend .margin-0;
+      }
+    }
+  }
+}
+
+.input-custom-icon {
+  @extend .position-rel;
+
+  i {
+    position: absolute;
+    @extend .center-y;
+    right: 0;
+    // top: 0;
+    // line-height: $height_form;
+    padding-right: 0.75rem;
+    // @extend .font-size-14;
+
+    &:not(.primary-color) {
+      color: $color_form;
+    }
+  }
+}
+
+.select-custom {
+  @extend .position-rel;
+  @extend .full-width;
+  @extend .display-block;
+
+  select {
+    -webkit-appearance: none;
+    appearance: none;
+    line-height: 20px;
+
+    &::-ms-expand {
+      display: none;
+    }
+  }
+
+  .icon-address {
+    top: 0;
+    right: 0;
+    // line-height: $height_form;
+    padding-right: 0.8rem;
+    pointer-events: none;
+
+    &:not(.primary-color) {
+      color: $color_form;
+    }
+  }
+
+  .form-h35 {
+    ~ i {
+      line-height: 37px;
+    }
+  }
+}
+
+.form-file-hide {
+  @extend .position-rel;
+
+  input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    @extend .full-box;
+    opacity: 0;
+  }
+}
+
+.is-invalid {
+  input,
+  select,
+  textarea {
+    border-color: $color_form;
+  }
+}
+.form-err-noti {
+  padding-top: 6px;
+}
+.form-item-err {
+  border: 1px solid $color_form !important;
+}
+// custom form normal
+.form-control {
+  // @extend .bg-color-light-gray;
+  @extend .full-width;
+  @extend .border-rd-4;
+  border: 1px solid $color_background;
+  padding: 0.375rem 0.75rem;
+  @extend .font-primary;
+  height: 2.4rem;
+  @extend .bg-color-background;
+  @extend .border-rd-6;
+
+  &--light {
+    @extend .bg-color-light;
+  }
+}
+// Hide input number arror
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.custom-row {
+  margin-right: -0.6rem;
+  margin-left: -0.6rem;
+  > * {
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+  }
+}

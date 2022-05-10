@@ -1,0 +1,98 @@
+.btn {
+	@extend .effect-transition-fast;
+  border: 1px solid;
+	
+	&-main {
+		@extend .bg-primary-color;
+		@extend .color-light;
+		@extend .bd-primary-color;
+
+		i {
+			padding: 0 4px;
+		}
+
+		&.btn-no-hover {
+			@extend .color-light;
+		}
+
+		&:not(.btn-no-hover) {
+			&:hover {
+				@extend .bg-color-light;
+				@extend .primary-color;
+			}
+		}
+	}
+
+	&-red {
+		@extend .bg-color-red;
+		@extend .color-light;
+		@extend .bd-color-red;
+
+		&.btn-no-hover {
+			@extend .color-light;
+		}
+
+		&:not(.btn-no-hover) {
+			&:hover {
+				@extend .bg-color-light;
+				@extend .color-red;
+			}
+		}
+	}
+
+	&.btn-no-hover {
+		cursor: auto!important;
+	}
+}
+.btn {
+	@extend .effect-transition-fast;
+	&-save {
+		padding: 10px;
+		border: none;
+		width: 104px;
+		@extend .border-rd-6;
+		@extend .cursor-pointer;
+		&:hover {
+			background-color: $color_light_blue;
+		}
+	}
+	&-choose {
+		height: 2.4rem;
+		@extend .border-rd-6;
+		@extend .cursor-pointer;
+		@extend .justify-content-center;
+		@extend .display-flex-center;
+		padding: 0 0.8rem;
+		&:hover {
+			@extend .bg-light-blue;
+			@extend .primary-color;
+		}
+	}
+}
+.btn {
+	&-form-input {
+		@extend .border-none;
+		@extend .bg-color-background;
+		@extend .primary-color-txt;
+		@extend .border-rd-6;
+		@extend .padding-12-16r;
+	}
+	&-form-cancle {
+		@extend .border-none;
+		padding: 10px;
+		width: 150px;
+		@extend .border-rd-6;
+		@extend .cursor-pointer;
+		background: none;
+		@extend .primary-color;
+	}
+	&-form-wait {
+		@extend .border-none;
+		padding: 10px;
+		width: 150px;
+		@extend .border-rd-6;
+		@extend .cursor-pointer;
+		@extend .color-background;
+		@extend .secondary-color-txt;
+	}
+}

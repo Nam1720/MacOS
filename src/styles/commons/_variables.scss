@@ -1,0 +1,103 @@
+//color
+$primary_color: #3366cc;
+$secondary_color: #5fc4b5;
+$third_color: #ffa958;
+$yellow_color: #ffd700;
+$color_light: #fff;
+$color_dark: #000;
+$color_red: #fc6d6d;
+$color_background: #f4f5f9;
+$color_border: #e1e7ed;
+$color_light_blue: #e6ecf9;
+$color_green: #64c8bc;
+$color_light_gray: #e1e7ed;
+$color_cyan: #31a24c;
+$color_background_image: #e0e7ee;
+$color_gray_opacity: #85a3e0;
+$color_over_opacity: #6d7984;
+$color_gray: #4e4c4c;
+$primary_color_txt_opacity: #40505e;
+$primary_color_txt: #40505e;
+$secondary_color_txt: #879aa9;
+$color_green_gray: #5fc4b5;
+$color_green_light: #ecf8f7;
+$color_red_light: #fee9e9;
+$color_org_light: #fff5eb;
+$color_green_2: #c1e9e4;
+$color_f1: #f1f1f1;
+$color_red_default: #ff0000;
+$color_newsfeed_ref: #f0f2f5;
+$color_highlight: #ffcb9b;
+
+$color_bgTopBar:rgba(131,148,175,0.42);
+$color_bg_dropdown:#ffffffe0;
+$color_border_dropdown:#d3d3d33b;
+$color_divider:#d3d3d37c;
+$color_toggle_gray: #666469;
+$color_border_toggle: #7a7a7e;
+$color_active_select:#1866df;
+$color_bg-color-red :rgb(255, 0, 0);
+$color_bg-color-yellow :rgb(255, 255, 0);
+$color_bg-color-green :rgb(0, 255, 0);
+$color_box_shadow: rgb(29, 30, 31);
+$color_border_caculator: #2d3135;
+
+$color_bg_dock:rgb(129 ,147, 175);
+$color_border_dock: rgb(211, 211, 211);
+
+//Font family
+$font_sandisplay: "sandisplaypro", "arial";
+$font_primary: "Inter", sans-serif;
+// Heading
+$heading_normal: 16px;
+$heading_h1: round($heading_normal * 2); //H1 font_size
+$heading_h2: round($heading_normal * 1.875); //H2 font_size
+$heading_h3: round($heading_normal * 1.75); //H3 font_size
+$heading_h4: round($heading_normal * 1.5); //H4 font_size
+$heading_h5: round($heading_normal * 1.25); //H5 font_size
+$heading_h6: round($heading_normal * 1); //H6 font-size
+//font size normal
+$font_size_text_normal: 16px;
+$font_size_14: round($font_size_text_normal / 1.14);
+$font_size_18: round($font_size_text_normal * 1.125);
+$font_size_heading_box: round($font_size_text_normal * 4.5);
+$font_size_heading_slider: round($font_size_text_normal * 5.25);
+$font_size_sub_title_gradient_slider: round($font_size_text_normal * 8.125);
+$font_size_countdown: round($font_size_text_normal * 3);
+$font_size_mobile_1: round($font_size_text_normal / 1.333);
+$font_size_mobile_2: round($font_size_text_normal / 1.6);
+$font_size_mobile_3: round($font_size_text_normal / 2);
+$font_size_6: 6px;
+$font_size_8: 8px;
+$font_size_10: 10px;
+$font_size_11: 11px;
+$font_size_12: 12px;
+$font_size_13: 13px;
+$font_size_14: 14px;
+$font_size_15: 15px;
+$font_size_16: 16px;
+$font_size_18: 18px;
+$font_size_20: 20px;
+$font_size_22: 22px;
+$font_size_24: 24px;
+$font_size_26: 26px;
+$font_size_27: 27px;
+$font_size_28: 28px;
+$font_size_30: 30px;
+$font_size_32: 32px;
+$font_size_36: 36px;
+$font_size_40: 40px;
+$font_size_48: 48px;
+$font_size_72: 72px;
+$font_size_107: 107px;
+$font_size_144: 144px;
+//Line height
+$line_height_normal: 1;
+$line_height_primary: 1.25;
+$header_height: 80px;
+$font_weight_light: 300;
+$font_weight_regular: 400;
+$font_weight_medium: 500;
+$font_weight_semibold: 600;
+$font_weight_bold: 700;
+$height_form: 48px;

@@ -1,0 +1,51 @@
+// html * {
+//   font-family: 'San pro', arial;
+// }
+
+// html *.font-sanpro-semibold {
+//   font-family: 'San pro semi', arial;
+
+//   * {
+//     font-family: inherit;
+//   }
+// }
+// html *.font-sanpro-light {
+//   font-family: 'San pro light', arial;
+
+//   * {
+//     font-family: inherit;
+//   }
+// }
+// html *.font-sanpro-bold {
+//   font-family: 'San pro bold', arial;
+
+//   * {
+//     font-family: inherit;
+//   }
+// }
+
+.font-sanpro-light {
+  // font-weight: $font_weight_light;
+  // font-family: 'sandisplaypro-light', 'arial';
+}
+.font-sanpro,
+.font-primary {
+  font-family: $font_primary;
+  // font-family: 'sandisplaypro', 'arial';
+}
+.font-weight-normal {
+  font-weight: $font_weight_regular;
+}
+.font-sanpro-semibold,
+.font-weight-semibold {
+  font-weight: $font_weight_semibold;
+  // font-family: 'sandisplaypro-semi', 'arial';
+}
+.font-sanpro-bold,
+.font-weight-bold {
+  font-weight: $font_weight_bold;
+  // font-family: 'sandisplaypro-bold', 'arial';
+}
+.font-sandisplay {
+  font-family: $font_sandisplay;
+}

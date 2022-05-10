@@ -1,0 +1,468 @@
+// @font-face {
+//   font-family: "icomoon";
+//   src: url("./../../static/fonts/icomoon.eot?kwgfvs");
+//   src: url("./../../static/fonts/icomoon.eot?kwgfvs#iefix")
+//       format("embedded-opentype"),
+//     url("./../../static/fonts/icomoon.ttf?kwgfvs") format("truetype"),
+//     url("./../../static/fonts/icomoon.woff?kwgfvs") format("woff"),
+//     url("./../../static/fonts/icomoon.svg?kwgfvs#icomoon") format("svg");
+//   font-weight: normal;
+//   font-style: normal;
+//   font-display: block;
+// }
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-tick:before {
+  content: "\e983";
+}
+.icon-lock:before {
+  content: "\e984";
+}
+.icon-friends:before {
+  content: "\e985";
+}
+.icon-earth:before {
+  content: "\e987";
+}
+.icon-world:before {
+  content: "\e988";
+}
+.icon-video-player:before {
+  content: "\e995";
+}
+.icon-thu-vien:before {
+  content: "\e998";
+}
+.icon-lich:before {
+  content: "\e9b8";
+}
+.icon-hoi-dap:before {
+  content: "\e9c0";
+}
+.icon-khoa-hoc:before {
+  content: "\e9c2";
+}
+.icon-kiem-tra:before {
+  content: "\e9c5";
+}
+.icon-de-thi:before {
+  content: "\e9c7";
+}
+
+.icon-bai-tap:before {
+  content: "\e989";
+}
+.icon-binh-luan:before {
+  content: "\e98e";
+}
+.icon-bo-loc:before {
+  content: "\e991";
+}
+.icon-checkbox-1:before {
+  content: "\e995";
+}
+.icon-checkbox-2:before {
+  content: "\e996";
+}
+.icon-checkbox-multiple-1:before {
+  content: "\e998";
+}
+.icon-checkbox-multiple-2:before {
+  content: "\e999";
+}
+.icon-chinh-sua:before {
+  content: "\e99b";
+}
+.icon-dien-thoai:before {
+  content: "\e99c";
+}
+.icon-gan-the-nguoi:before {
+  content: "\e99e";
+}
+.icon-gui:before {
+  content: "\e9a2";
+}
+.icon-hinh-anh:before {
+  content: "\e9a3";
+}
+.icon-khao-sat:before {
+  content: "\e9a6";
+}
+.icon-lien-ket:before {
+  content: "\e9a8";
+}
+.icon-like5:before {
+  content: "\e9a9";
+}
+.icon-luu:before {
+  content: "\e9aa";
+}
+.icon-mail:before {
+  content: "\e9ac";
+}
+.icon-play:before {
+  content: "\e9ae";
+}
+.icon-tai-lieu1:before {
+  content: "\e9af";
+}
+.icon-tin-nhan1:before {
+  content: "\e9b3";
+}
+.icon-double-right-arrow:before {
+  content: "\e982";
+}
+.icon-double-left-arrow:before {
+  content: "\e986";
+}
+.icon-circular-arrow:before {
+  content: "\e981";
+}
+.icon-symbol:before {
+  content: "\e97e";
+}
+.icon-exam:before {
+  content: "\e980";
+}
+.icon-cells:before {
+  content: "\e97f";
+}
+.icon-download:before {
+  content: "\e97b";
+}
+.icon-tai-lieu-quan-trong:before {
+  content: "\e97c";
+}
+.icon-tat-ca-tai-lieu:before {
+  content: "\e97d";
+}
+.icon-audio:before {
+  content: "\e976";
+}
+.icon-document:before {
+  content: "\e977";
+}
+.icon-pdf:before {
+  content: "\e978";
+}
+.icon-pptx:before {
+  content: "\e979";
+}
+.icon-private:before {
+  content: "\e973";
+}
+.icon-recording:before {
+  content: "\e97a";
+}
+.icon-left-arrow1:before {
+  content: "\e971";
+}
+.icon-right-arrow1:before {
+  content: "\e972";
+}
+.icon-facebook:before {
+  content: "\e970";
+}
+.icon-delete:before {
+  content: "\e953";
+}
+.icon-copyright:before {
+  content: "\e954";
+}
+.icon-Star:before {
+  content: "\e975";
+}
+.icon-chinh-sua:before {
+  content: "\e974";
+}
+.icon-anh:before {
+  content: "\e938";
+}
+.icon-binh-luan-2:before {
+  content: "\e939";
+}
+.icon-cau-hoi-don:before {
+  content: "\e93c";
+}
+.icon-cau-hoi-kep-1:before {
+  content: "\e93d";
+}
+.icon-checkpoint-2:before {
+  content: "\e93e";
+}
+.icon-dap-an-1:before {
+  content: "\e93f";
+}
+.icon-dap-an-2-2:before {
+  content: "\e940";
+}
+.icon-dislike1:before {
+  content: "\e941";
+}
+.icon-dung-1:before {
+  content: "\e942";
+}
+.icon-hien-thi-1:before {
+  content: "\e944";
+}
+.icon-hien-th-list-1:before {
+  content: "\e945";
+}
+.icon-lien-ket-2:before {
+  content: "\e946";
+}
+.icon-like-2:before {
+  content: "\e947";
+}
+.icon-Luu-2:before {
+  content: "\e948";
+}
+.icon-more-options-2:before {
+  content: "\e94a";
+}
+.icon-mui-ten-1:before {
+  content: "\e94b";
+}
+.icon-mui-ten-xuong:before {
+  content: "\e94c";
+}
+.icon-next:before {
+  content: "\e94d";
+}
+.icon-phai:before {
+  content: "\e94e";
+}
+.icon-preview:before {
+  content: "\e94f";
+}
+.icon-previous:before {
+  content: "\e950";
+}
+.icon-share-2:before {
+  content: "\e951";
+}
+.icon-tai-lieu:before {
+  content: "\e952";
+}
+.icon-tao-thu-muc:before {
+  content: "\e953";
+}
+.icon-tham-gia:before {
+  content: "\e955";
+}
+.icon-thanh-vien:before {
+  content: "\e958";
+}
+.icon-them-moi:before {
+  content: "\e959";
+}
+.icon-thich:before {
+  content: "\e95a";
+}
+.icon-thich-2:before {
+  content: "\e95d";
+}
+.icon-thoat:before {
+  content: "\e95e";
+}
+.icon-thong-bao:before {
+  content: "\e95f";
+}
+.icon-tim-kiem-1:before {
+  content: "\e960";
+}
+.icon-tim-kiem-2:before {
+  content: "\e961";
+}
+.icon-tin-nhan:before {
+  content: "\e962";
+}
+.icon-tin-nhan-moi:before {
+  content: "\e966";
+}
+.icon-trai:before {
+  content: "\e969";
+}
+.icon-trai-tim:before {
+  content: "\e96a";
+}
+.icon-upload1:before {
+  content: "\e96b";
+}
+.icon-upload-thu-muc:before {
+  content: "\e96c";
+}
+.icon-zoom-out:before {
+  content: "\e96f";
+}
+.icon-chat4:before {
+  content: "\e930";
+}
+.icon-check-mark1:before {
+  content: "\e932";
+}
+.icon-list1:before {
+  content: "\e933";
+}
+.icon-menu2:before {
+  content: "\e934";
+}
+.icon-clip1:before {
+  content: "\e935";
+}
+.icon-information-button1:before {
+  content: "\e936";
+}
+.icon-checked1:before {
+  content: "\e937";
+}
+.icon-right-arrow-solid-square-button:before {
+  content: "\e92f";
+}
+.icon-up-arrow-solid-black-square-button1:before {
+  content: "\e92d";
+}
+.icon-book:before {
+  content: "\e931";
+}
+.icon-book1:before {
+  content: "\e903";
+}
+.icon-bookmark1:before {
+  content: "\e904";
+}
+.icon-calendar-11:before {
+  content: "\e905";
+}
+.icon-calendar:before {
+  content: "\e906";
+}
+.icon-cancel:before {
+  content: "\e907";
+}
+.icon-chat-1:before {
+  content: "\e909";
+}
+.icon-chat:before {
+  content: "\e90a";
+}
+.icon-close:before {
+  content: "\e908";
+}
+.icon-comment:before {
+  content: "\e90b";
+}
+.icon-decorative-bookmark:before {
+  content: "\e90c";
+}
+.icon-digital-controller:before {
+  content: "\e90e";
+}
+.icon-dislike:before {
+  content: "\e90f";
+}
+.icon-down-arrow:before {
+  content: "\e910";
+}
+.icon-focus:before {
+  content: "\e90d";
+}
+.icon-grid-1:before {
+  content: "\e911";
+}
+.icon-grid:before {
+  content: "\e912";
+}
+.icon-group:before {
+  content: "\e913";
+}
+.icon-heart:before {
+  content: "\e914";
+}
+.icon-home:before {
+  content: "\e915";
+}
+.icon-image:before {
+  content: "\e916";
+}
+.icon-left-arrow:before {
+  content: "\e917";
+}
+.icon-like:before {
+  content: "\e918";
+}
+.icon-link:before {
+  content: "\e919";
+}
+.icon-menu:before {
+  content: "\e91a";
+}
+.icon-more:before {
+  content: "\e91c";
+}
+.icon-notification:before {
+  content: "\e91d";
+}
+.icon-paper-clip:before {
+  content: "\e91e";
+}
+.icon-play-button-arrowhead:before {
+  content: "\e91b";
+}
+.icon-plus-1:before {
+  content: "\e91f";
+}
+.icon-plus:before {
+  content: "\e920";
+}
+.icon-recycle:before {
+  content: "\e921";
+}
+.icon-right-arrow:before {
+  content: "\e922";
+}
+.icon-right-arrow-angle:before {
+  content: "\e923";
+}
+.icon-search:before {
+  content: "\e924";
+}
+.icon-share:before {
+  content: "\e925";
+}
+.icon-sort-button-with-three-lines:before {
+  content: "\e926";
+}
+.icon-upload-1:before {
+  content: "\e927";
+}
+.icon-upload-2:before {
+  content: "\e928";
+}
+.icon-upload:before {
+  content: "\e92a";
+}
+.icon-user:before {
+  content: "\e92b";
+}
+.icon-video-camera:before {
+  content: "\e92c";
+}
+.icon-work:before {
+  content: "\e929";
+}

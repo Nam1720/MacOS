@@ -1,0 +1,33 @@
+.item-grid-4 {
+  width: 24.074%;
+  @media screen and ( min-width: 1200px ) {
+    &:not(:nth-child(4n + 4)) {
+      margin-right: 1.23%;
+    }
+  }
+  @media screen and ( min-width: 768px ) and ( max-width: 1199px ) {
+    width: 32.098%;
+    &:not(:nth-child(3n + 3)) {
+      margin-right: 1.23%;
+    }
+  }
+
+  @media screen and ( min-width: 401px ) and ( max-width: 767px ) {
+    width: 48.148%;
+    &:not(:nth-child(even)) {
+      margin-right: 1.23%;
+    }
+  }
+  @media screen and ( max-width: 400px ) {
+    width: 100%;
+  }
+}
+
+.list-lib-grid {
+  @extend .display-flex-wrap;
+  // @extend .justify-content-between;
+
+  .item {
+    @extend .item-grid-4;
+  }
+}

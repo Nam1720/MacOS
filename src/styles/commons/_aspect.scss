@@ -1,0 +1,292 @@
+.pd-page {
+  min-height: 100vh;
+  // padding-top: 128px;
+  padding-top: 2.35rem;
+  padding-bottom: 80px;
+  width: 100vw;
+}
+
+.layout-left {
+  width: 21.126%;
+}
+.layout-right {
+  width: 23.943%;
+}
+.layout-center {
+  width: 49.296%;
+}
+
+.border-b {
+  border-bottom: 1px solid $color_border;
+}
+.pd-10 {
+  padding: 0.5rem;
+}
+.pd-8 {
+  padding: 0.4rem;
+}
+.pd-5 {
+  padding: 0.25rem;
+}
+.pd-20 {
+  padding: 1rem;
+}
+.pd-r-0 {
+  padding-right: 0;
+}
+.pd-r-15 {
+  padding-right: 0.75rem;
+}
+.pd-l-15 {
+  padding-left: 0.75rem;
+}
+.pd-r-30 {
+  padding-right: 1.5rem;
+}
+.pd-r-35 {
+  padding-right: 1.75rem;
+}
+.mg-t-30 {
+  margin-top: 1.5rem;
+}
+.mg-t-28 {
+  margin-top: 1.4rem;
+}
+.mg-t-8 {
+  margin-top: 0.4rem;
+}
+.mg-l-8 {
+  margin-left: 0.4rem;
+}
+.mg-r-8 {
+  margin-right: 0.4rem;
+}
+.mg-b-8 {
+  margin-bottom: 0.4rem;
+}
+.mg-t-15 {
+  margin-top: 0.75rem;
+}
+.mg-t-20 {
+  margin-top: 0.75rem;
+}
+.mg-b-20 {
+  margin-bottom: 1rem;
+}
+.mg-b-10 {
+  margin-bottom: 0.5rem;
+}
+.mg-b-16 {
+  margin-bottom: 0.8rem;
+}
+.mg-b-32 {
+  margin-bottom: 1.6rem;
+}
+.margin-left-8r {
+  margin-left: 0.4rem;
+}
+.pd-block {
+  @extend .pd-20;
+  @media screen and (min-width: 1681px) and (max-width: 1920px) {
+    padding: 20px;
+  }
+
+  @media screen and (min-width: 1441px) and (max-width: 1680px) {
+    padding: 15px;
+  }
+
+  @media screen and (min-width: 1281px) and (max-width: 1440px) {
+    padding: 13.5px;
+  }
+
+  @media screen and (min-width: 1200px) and (max-width: 1280px) {
+    padding: 12.5px;
+  }
+
+  @media screen and (min-width: 992px) and (max-width: 1199px) {
+    padding: 10px;
+  }
+
+  @media screen and (max-width: 991px) {
+    padding: 10px;
+  }
+}
+// margin-padding rem
+
+.mg-24r-0 {
+  margin: 1.2rem 0;
+}
+.mg-t-5r {
+  margin-top: 0.25rem;
+}
+.mg-t-8r {
+  margin-top: 0.4rem;
+}
+.mg-t-12r {
+  margin-top: 0.6rem;
+}
+.mg-t-15r {
+  margin-top: 0.75rem;
+}
+.mg-t-16r {
+  margin-top: 0.8rem;
+}
+.mg-t-18r {
+  margin-top: 0.9rem;
+}
+.mg-t-20r {
+  margin-top: 1rem;
+}
+.mg-t-24r {
+  margin-top: 1.2rem;
+}
+.mg-t-28r {
+  margin-top: 1.4rem;
+}
+.mr-t-30r {
+  margin-top: 1.5rem;
+}
+.mr-t-32r {
+  margin-top: 1.6rem;
+}
+.mg-b-8r {
+  margin-bottom: 0.4rem;
+}
+.mg-b-12r {
+  margin-bottom: 0.6rem;
+}
+.mg-b-16r {
+  margin-bottom: 0.8rem;
+}
+.mg-b-20r {
+  margin-bottom: 1rem;
+}
+.mg-b-24r {
+  margin-bottom: 1.2rem;
+}
+.mg-b-28r {
+  margin-bottom: 1.4rem;
+}
+.mg-b-32r {
+  margin-bottom: 1.6rem;
+}
+.mg-b-40r {
+  margin-bottom: 2rem;
+}
+.mg-b-64r {
+  margin-bottom: 3.2rem;
+}
+.mg-r-8r {
+  margin-right: 0.4rem;
+}
+.mg-r-17r {
+  margin-right: 0.85rem;
+}
+.mg-r-12r {
+  margin-right: 0.6rem;
+}
+.mg-r-16r {
+  margin-right: 0.8rem;
+}
+.mg-r-20r {
+  margin-right: 1rem;
+}
+.mg-r-24r {
+  margin-right: 1.2rem;
+}
+.mg-r-32r {
+  margin-right: 1.6rem;
+}
+.mg-r-48r {
+  margin-right: 2.4rem;
+}
+.mg-r-28r {
+  margin-right: 1.4rem;
+}
+.mg-l-8r {
+  margin-left: 0.4rem;
+}
+.mg-l-12r {
+  margin-left: 0.6rem;
+}
+.mg-l-16r {
+  margin-left: 0.8rem;
+}
+.mg-l-32r {
+  margin-left: 1.6rem;
+}
+.padding-5r {
+  padding: 0.25rem;
+}
+.padding-8r {
+  padding: 0.4rem;
+}
+.padding-10r {
+  padding: 0.5rem;
+}
+.padding-12r {
+  padding: 0.6rem;
+}
+.padding-16r {
+  padding: 0.8rem;
+}
+.padding-28r {
+  padding: 1.4rem;
+}
+.padding-20r {
+  padding: 1rem;
+}
+.padding-12-0 {
+  padding: 0.6rem 0;
+}
+.padding-8r-0 {
+  padding: 0.4rem 0;
+}
+.padding-16r-0 {
+  padding: 0.8rem 0;
+}
+.padding-0-20r {
+  padding: 0 1rem;
+}
+.padding-12-16r {
+  padding: 0.6rem 0.8rem;
+}
+.padding-8-16r {
+  padding: 0.4rem 0.8rem;
+}
+.padding-8-20r {
+  padding: 0.4rem 1rem;
+}
+.padding-12-20r {
+  padding: 0.6rem 1rem;
+}
+.padding-16-20r {
+  padding: 0.8rem 1rem;
+}
+.padding-r-20r {
+  padding-right: 1rem;
+}
+.padding-t-16r {
+  padding-top: 0.8rem;
+}
+.padding-b-24r {
+  padding-bottom: 1.2rem;
+}
+.padding-l-15r {
+  padding-left: 0.75rem;
+}
+.pd-b-15r {
+  padding-bottom: 0.75rem;
+}
+.pd-r-10r {
+  padding-right: 0.5rem !important;
+}
+.pd-l-10r {
+  padding-left: 0.5rem !important;
+}
+.pd-b-60r {
+  padding-bottom: 3rem;
+}
+.pd-t-48r {
+  padding-top: 2.4rem;
+}
